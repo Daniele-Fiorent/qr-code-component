@@ -37,6 +37,7 @@ body{
     align-items: center;
     min-height: 100svh;
     gap: 1rem;
+    text-align: center;
 }
 
 h2{
@@ -52,21 +53,18 @@ h2{
 
 p{
     font-size: 0.94rem;
-    font-weight: 400;
     color: var(--slate-500);
     padding-inline: 1rem;
     line-height: 140%;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.013rem;
 }
 
 .card{
     background-color: var(--white);
-    width: 320px;
-    height: 499px;
+    max-width: 20rem;
     display: flex;
     flex-flow: column;
     padding: 1rem 1rem 2.5rem 1rem;
-    text-align: center;
     border-radius: 20px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
 }
@@ -77,7 +75,6 @@ p{
 
 .attribution { 
     font-size: 0.8rem; 
-    text-align: center;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
