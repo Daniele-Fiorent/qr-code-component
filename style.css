@@ -71,6 +71,9 @@ p{
 
 .card img{
     border-radius: 10px;
+    display: block;
+    height: auto;
+    max-width: 100%;
 }
 
 .attribution { 
